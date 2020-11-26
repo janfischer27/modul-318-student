@@ -117,4 +117,643 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 24</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 118</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 60</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 46</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>SSV</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Name" xml:space="preserve">
+    <value>lblAktiverModus</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Name" xml:space="preserve">
+    <value>btnStationFinden</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Name" xml:space="preserve">
+    <value>txbZielort</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Name" xml:space="preserve">
+    <value>txbAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Name" xml:space="preserve">
+    <value>lblZielort</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Name" xml:space="preserve">
+    <value>lblAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Name" xml:space="preserve">
+    <value>lblMode</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblMode.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Name" xml:space="preserve">
+    <value>btnAb</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnAb.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Name" xml:space="preserve">
+    <value>btnStartUndEnde</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gbNeueVerbindung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 198</value>
+  </data>
+  <data name="gbNeueVerbindung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>838, 201</value>
+  </data>
+  <data name="gbNeueVerbindung.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbNeueVerbindung.Text" xml:space="preserve">
+    <value>Neue Verbindung suchen</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Name" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblAktiverModus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblAktiverModus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAktiverModus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 42</value>
+  </data>
+  <data name="lblAktiverModus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblAktiverModus.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblAktiverModus.Text" xml:space="preserve">
+    <value>Start und Ende</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Name" xml:space="preserve">
+    <value>lblAktiverModus</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 53</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Modus wechseln: </value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 125</value>
+  </data>
+  <data name="btnGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 40</value>
+  </data>
+  <data name="btnGo.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnGo.Text" xml:space="preserve">
+    <value>Verbindung suchen</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnStationFinden.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStationFinden.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 79</value>
+  </data>
+  <data name="btnStationFinden.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 40</value>
+  </data>
+  <data name="btnStationFinden.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnStationFinden.Text" xml:space="preserve">
+    <value>Station in der Nähe finden</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Name" xml:space="preserve">
+    <value>btnStationFinden</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txbZielort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 133</value>
+  </data>
+  <data name="txbZielort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 26</value>
+  </data>
+  <data name="txbZielort.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Name" xml:space="preserve">
+    <value>txbZielort</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txbAbfahrtsort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 93</value>
+  </data>
+  <data name="txbAbfahrtsort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 26</value>
+  </data>
+  <data name="txbAbfahrtsort.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Name" xml:space="preserve">
+    <value>txbAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblZielort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblZielort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblZielort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 136</value>
+  </data>
+  <data name="lblZielort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="lblZielort.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblZielort.Text" xml:space="preserve">
+    <value>Zielort:</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Name" xml:space="preserve">
+    <value>lblZielort</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAbfahrtsort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAbfahrtsort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAbfahrtsort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="lblAbfahrtsort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="lblAbfahrtsort.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblAbfahrtsort.Text" xml:space="preserve">
+    <value>Abfahrtsort:</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Name" xml:space="preserve">
+    <value>lblAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="lblMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 20</value>
+  </data>
+  <data name="lblMode.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblMode.Text" xml:space="preserve">
+    <value>Aktiver Modus: </value>
+  </data>
+  <data name="&gt;&gt;lblMode.Name" xml:space="preserve">
+    <value>lblMode</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblMode.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnAb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 125</value>
+  </data>
+  <data name="btnAb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 40</value>
+  </data>
+  <data name="btnAb.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnAb.Text" xml:space="preserve">
+    <value>Abfahrten</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Name" xml:space="preserve">
+    <value>btnAb</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnAb.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnStartUndEnde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>650, 79</value>
+  </data>
+  <data name="btnStartUndEnde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 40</value>
+  </data>
+  <data name="btnStartUndEnde.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnStartUndEnde.Text" xml:space="preserve">
+    <value>Start und Ende</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Name" xml:space="preserve">
+    <value>btnStartUndEnde</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gbSucheEinschraenken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 240</value>
+  </data>
+  <data name="gbSucheEinschraenken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 150</value>
+  </data>
+  <data name="gbSucheEinschraenken.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbSucheEinschraenken.Text" xml:space="preserve">
+    <value>Suche einschränken</value>
+  </data>
+  <data name="&gt;&gt;gbSucheEinschraenken.Name" xml:space="preserve">
+    <value>gbSucheEinschraenken</value>
+  </data>
+  <data name="&gt;&gt;gbSucheEinschraenken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbSucheEinschraenken.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbSucheEinschraenken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbAuflisten.ItemHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lbAuflisten.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 418</value>
+  </data>
+  <data name="lbAuflisten.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1216, 404</value>
+  </data>
+  <data name="lbAuflisten.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lbAuflisten.Name" xml:space="preserve">
+    <value>lbAuflisten</value>
+  </data>
+  <data name="&gt;&gt;lbAuflisten.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAuflisten.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbAuflisten.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAufKarteAnzeigen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="btnAufKarteAnzeigen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 38</value>
+  </data>
+  <data name="btnAufKarteAnzeigen.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAufKarteAnzeigen.Text" xml:space="preserve">
+    <value>Auf Karte anzeigen</value>
+  </data>
+  <data name="&gt;&gt;btnAufKarteAnzeigen.Name" xml:space="preserve">
+    <value>btnAufKarteAnzeigen</value>
+  </data>
+  <data name="&gt;&gt;btnAufKarteAnzeigen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAufKarteAnzeigen.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnAufKarteAnzeigen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnTeilen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 37</value>
+  </data>
+  <data name="btnTeilen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 38</value>
+  </data>
+  <data name="btnTeilen.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnTeilen.Text" xml:space="preserve">
+    <value>Teilen</value>
+  </data>
+  <data name="&gt;&gt;btnTeilen.Name" xml:space="preserve">
+    <value>btnTeilen</value>
+  </data>
+  <data name="&gt;&gt;btnTeilen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTeilen.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnTeilen.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>872, 841</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 100</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Deine Auswahl:</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1319, 981</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SSV - Schweizerische Schnellverbindung</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
