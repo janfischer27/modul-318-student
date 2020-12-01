@@ -49,6 +49,7 @@ namespace SSV_Application
             this.btnAufKarteAnzeigen = new System.Windows.Forms.Button();
             this.btnTeilen = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbNeueVerbindung.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -64,7 +65,6 @@ namespace SSV_Application
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // gbNeueVerbindung
             // 
@@ -178,11 +178,18 @@ namespace SSV_Application
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            this.label5.Click += new System.EventHandler(this.label3_Click);
+            // 
             // main
             // 
             this.AcceptButton = this.btnGo;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbAuflisten);
             this.Controls.Add(this.gbSucheEinschraenken);
@@ -222,6 +229,7 @@ namespace SSV_Application
         private System.Windows.Forms.Label lblMode;
         private System.Windows.Forms.Label lblAktiverModus;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label5;
     }
 }
 

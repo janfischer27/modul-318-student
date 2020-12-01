@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -19,11 +20,6 @@ namespace SSV_Application
         {
             InitializeComponent();
             ButtonsStartUp();
-            
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
             
         }
 
@@ -57,9 +53,11 @@ namespace SSV_Application
 
         private void btnGo_Click(object sender, EventArgs e)
         {
-            string Output = "";
+            string ConnectionOutput = "";
+            string StationBoardOutput = "";
 
             var connections = transport.GetConnections(txbAbfahrtsort.Text, txbZielort.Text);
+            var StationBoard = transport.GetStationBoard(txbAbfahrtsort.Text, "");
 
             if (btnAb.Enabled) //Modus "Start und Ende" ist aktiv
             {
@@ -72,17 +70,17 @@ namespace SSV_Application
                     {
                         string Abfahrtszeit = DateTime.Parse(connection.From.Departure).ToString("HH:mm");
                         string Ankunftszeit = DateTime.Parse(connection.To.Arrival).ToString("HH:mm");
-                        if(connection.From.Platform == "") //Hier weitermachen
+                        if(connection.From.Platform == null) //Wenn kein Eintrag zur Plattform, "Gleis" in der Ausgabe weglassen
                         {
-                            Output = "Von " + connection.From.Station.Name + " nach " + connection.To.Station.Name + "\t\t" + "Abfahrt Gleis " + connection.From.Platform + " um " + Abfahrtszeit + "\t" + "Ankunft um " + Ankunftszeit + " auf Gleis " + connection.To.Platform;
+                            ConnectionOutput = "Von " + connection.From.Station.Name + " nach " + connection.To.Station.Name + "\t\t" + "Abfahrt um " + Abfahrtszeit + "\t" + "Ankunft um " + Ankunftszeit + " auf Gleis " + connection.To.Platform;
                         }
-                        else if
+                        else
                         {
-
+                            ConnectionOutput = "Von " + connection.From.Station.Name + " nach " + connection.To.Station.Name + "\t\t" + "Abfahrt Gleis " + connection.From.Platform + " um " + Abfahrtszeit + "\t" + "Ankunft um " + Ankunftszeit + " auf Gleis " + connection.To.Platform;
                         }
                         
 
-                        lbAuflisten.Items.Add(Output);
+                        lbAuflisten.Items.Add(ConnectionOutput);
                     }
                 }
                 else
@@ -98,13 +96,36 @@ namespace SSV_Application
 
                     lbAuflisten.Items.Clear();
 
-                    /*
-                    foreach (StationBoardRoot station in stationBoard)
+                    foreach (StationBoard verbindung in StationBoard.Entries)
                     {
-                        string Output = "";
-                        lbAuflisten.Items.Add(Output);
+                        string typ = verbindung.Name.Substring(0, 2); //Nur der Typ des Zuges ausgeben (z.B. RE oder S1)
+                        string stunde = "";
+                        string minute = "";
+                        if (verbindung.Stop.Departure.Hour < 10) //Falls einstellig wird vorne eine 0 hinzugefügt
+                        {
+                            stunde = "0" + Convert.ToString(verbindung.Stop.Departure.Hour);
+                        }
+                        else
+                        {
+                            stunde = Convert.ToString(verbindung.Stop.Departure.Hour);
+                        }
+
+                        if (verbindung.Stop.Departure.Minute < 10) //Uhrzeit formatieren
+                        {
+                            minute = "0" + Convert.ToString(verbindung.Stop.Departure.Minute);
+                        }
+                        else
+                        {
+                            minute = Convert.ToString(verbindung.Stop.Departure.Minute);
+                        }
+
+                        string Abfahrtszeit = stunde + ":" + minute;
+
+                        StationBoardOutput = typ + " von " + StationBoard.Station.Name + " nach " + verbindung.To + " um " + Abfahrtszeit;
+
+                        lbAuflisten.Items.Add(StationBoardOutput);
                     }
-                    */
+                    
                     
                 }
                 else
@@ -119,6 +140,11 @@ namespace SSV_Application
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
