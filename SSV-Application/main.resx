@@ -142,7 +142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -166,6 +166,168 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Name" xml:space="preserve">
+    <value>lblAktiverModus</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAktiverModus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Name" xml:space="preserve">
+    <value>btnGo</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGo.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnGo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Name" xml:space="preserve">
+    <value>btnStationFinden</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStationFinden.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Name" xml:space="preserve">
+    <value>txbZielort</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbZielort.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Name" xml:space="preserve">
+    <value>txbAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;txbAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Name" xml:space="preserve">
+    <value>lblZielort</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblZielort.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Name" xml:space="preserve">
+    <value>lblAbfahrtsort</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblAbfahrtsort.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Name" xml:space="preserve">
+    <value>lblMode</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMode.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;lblMode.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Name" xml:space="preserve">
+    <value>btnAb</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAb.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnAb.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Name" xml:space="preserve">
+    <value>btnStartUndEnde</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.Parent" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;btnStartUndEnde.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="gbNeueVerbindung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 129</value>
+  </data>
+  <data name="gbNeueVerbindung.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gbNeueVerbindung.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="gbNeueVerbindung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 131</value>
+  </data>
+  <data name="gbNeueVerbindung.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbNeueVerbindung.Text" xml:space="preserve">
+    <value>Neue Verbindung suchen</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Name" xml:space="preserve">
+    <value>gbNeueVerbindung</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNeueVerbindung.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="lblAktiverModus.AutoSize" type="System.Boolean, mscorlib">
@@ -492,35 +654,29 @@
   <data name="&gt;&gt;btnStartUndEnde.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="gbNeueVerbindung.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 129</value>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
   </data>
-  <data name="gbNeueVerbindung.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="gbNeueVerbindung.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>gbSucheEinschraenken</value>
   </data>
-  <data name="gbNeueVerbindung.Size" type="System.Drawing.Size, System.Drawing">
-    <value>559, 131</value>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="gbNeueVerbindung.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
   </data>
-  <data name="gbNeueVerbindung.Text" xml:space="preserve">
-    <value>Neue Verbindung suchen</value>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gbNeueVerbindung.Name" xml:space="preserve">
-    <value>gbNeueVerbindung</value>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>gbSucheEinschraenken</value>
   </data>
-  <data name="&gt;&gt;gbNeueVerbindung.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbNeueVerbindung.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gbNeueVerbindung.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="gbSucheEinschraenken.Location" type="System.Drawing.Point, System.Drawing">
     <value>618, 156</value>
@@ -532,7 +688,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="gbSucheEinschraenken.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 97</value>
+    <value>150, 97</value>
   </data>
   <data name="gbSucheEinschraenken.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -550,31 +706,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;gbSucheEinschraenken.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="lbAuflisten.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 272</value>
-  </data>
-  <data name="lbAuflisten.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="lbAuflisten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>812, 264</value>
-  </data>
-  <data name="lbAuflisten.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="&gt;&gt;lbAuflisten.Name" xml:space="preserve">
-    <value>lbAuflisten</value>
-  </data>
-  <data name="&gt;&gt;lbAuflisten.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbAuflisten.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lbAuflisten.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="btnAufKarteAnzeigen.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 24</value>
@@ -604,13 +736,13 @@
     <value>0</value>
   </data>
   <data name="btnTeilen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 24</value>
+    <value>343, 27</value>
   </data>
   <data name="btnTeilen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="btnTeilen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 25</value>
+    <value>116, 22</value>
   </data>
   <data name="btnTeilen.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -625,13 +757,13 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnTeilen.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+    <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;btnTeilen.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 547</value>
+    <value>511, 543</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -658,7 +790,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -691,6 +823,174 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="linie.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="von.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nach.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gleis.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="abfahrtszeit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ankunftszeit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 285</value>
+  </data>
+  <data name="dgvList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>742, 240</value>
+  </data>
+  <data name="dgvList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgvList.Name" xml:space="preserve">
+    <value>dgvList</value>
+  </data>
+  <data name="&gt;&gt;dgvList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="linie.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="linie.HeaderText" xml:space="preserve">
+    <value>Linie</value>
+  </data>
+  <metadata name="von.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="von.HeaderText" xml:space="preserve">
+    <value>Von</value>
+  </data>
+  <metadata name="nach.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="nach.HeaderText" xml:space="preserve">
+    <value>Nach</value>
+  </data>
+  <metadata name="gleis.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gleis.HeaderText" xml:space="preserve">
+    <value>Abfahrt auf Gleis</value>
+  </data>
+  <metadata name="abfahrtszeit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="abfahrtszeit.HeaderText" xml:space="preserve">
+    <value>Abfahrtszeit</value>
+  </data>
+  <metadata name="ankunftszeit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ankunftszeit.HeaderText" xml:space="preserve">
+    <value>Ankunftszeit</value>
+  </data>
+  <data name="dateTimePicker1.CustomFormat" xml:space="preserve">
+    <value>HH:mm</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 24</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Name" xml:space="preserve">
+    <value>dateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>gbSucheEinschraenken</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dateTimePicker2.CustomFormat" xml:space="preserve">
+    <value>dd.MM.yy</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 54</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="dateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Name" xml:space="preserve">
+    <value>dateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.Parent" xml:space="preserve">
+    <value>gbSucheEinschraenken</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cbVerbindungen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 27</value>
+  </data>
+  <data name="cbVerbindungen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 21</value>
+  </data>
+  <data name="cbVerbindungen.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cbVerbindungen.Name" xml:space="preserve">
+    <value>cbVerbindungen</value>
+  </data>
+  <data name="&gt;&gt;cbVerbindungen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbVerbindungen.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;cbVerbindungen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 543</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 64</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Verbindung per Mail teilen</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -700,13 +1000,49 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>879, 638</value>
+    <value>797, 660</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>SSV - Schweizerische Schnellverbindung</value>
+  </data>
+  <data name="&gt;&gt;linie.Name" xml:space="preserve">
+    <value>linie</value>
+  </data>
+  <data name="&gt;&gt;linie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;von.Name" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="&gt;&gt;von.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nach.Name" xml:space="preserve">
+    <value>nach</value>
+  </data>
+  <data name="&gt;&gt;nach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gleis.Name" xml:space="preserve">
+    <value>gleis</value>
+  </data>
+  <data name="&gt;&gt;gleis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;abfahrtszeit.Name" xml:space="preserve">
+    <value>abfahrtszeit</value>
+  </data>
+  <data name="&gt;&gt;abfahrtszeit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ankunftszeit.Name" xml:space="preserve">
+    <value>ankunftszeit</value>
+  </data>
+  <data name="&gt;&gt;ankunftszeit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>main</value>
