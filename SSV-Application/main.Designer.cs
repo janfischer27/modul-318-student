@@ -47,23 +47,23 @@ namespace SSV_Application
             this.gbSucheEinschraenken = new System.Windows.Forms.GroupBox();
             this.btnAufKarteAnzeigen = new System.Windows.Forms.Button();
             this.btnTeilen = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dgvList = new System.Windows.Forms.DataGridView();
+            this.dtpZeit = new System.Windows.Forms.DateTimePicker();
+            this.dtpDatum = new System.Windows.Forms.DateTimePicker();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbVerbindungen = new System.Windows.Forms.ComboBox();
+            this.lblAb = new System.Windows.Forms.Label();
             this.linie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.von = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nach = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gleis = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.abfahrtszeit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ankunftszeit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.cbVerbindungen = new System.Windows.Forms.ComboBox();
+            this.datum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbNeueVerbindung.SuspendLayout();
             this.gbSucheEinschraenken.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -119,6 +119,7 @@ namespace SSV_Application
             resources.ApplyResources(this.btnStationFinden, "btnStationFinden");
             this.btnStationFinden.Name = "btnStationFinden";
             this.btnStationFinden.UseVisualStyleBackColor = true;
+            this.btnStationFinden.Click += new System.EventHandler(this.btnStationFinden_Click);
             // 
             // txbZielort
             // 
@@ -161,8 +162,9 @@ namespace SSV_Application
             // 
             // gbSucheEinschraenken
             // 
-            this.gbSucheEinschraenken.Controls.Add(this.dateTimePicker2);
-            this.gbSucheEinschraenken.Controls.Add(this.dateTimePicker1);
+            this.gbSucheEinschraenken.Controls.Add(this.lblAb);
+            this.gbSucheEinschraenken.Controls.Add(this.dtpDatum);
+            this.gbSucheEinschraenken.Controls.Add(this.dtpZeit);
             resources.ApplyResources(this.gbSucheEinschraenken, "gbSucheEinschraenken");
             this.gbSucheEinschraenken.Name = "gbSucheEinschraenken";
             this.gbSucheEinschraenken.TabStop = false;
@@ -181,13 +183,6 @@ namespace SSV_Application
             this.btnTeilen.UseVisualStyleBackColor = true;
             this.btnTeilen.Click += new System.EventHandler(this.btnTeilen_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnAufKarteAnzeigen);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
-            // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
@@ -196,6 +191,7 @@ namespace SSV_Application
             // 
             // dgvList
             // 
+            this.dgvList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.linie,
@@ -203,9 +199,47 @@ namespace SSV_Application
             this.nach,
             this.gleis,
             this.abfahrtszeit,
-            this.ankunftszeit});
+            this.ankunftszeit,
+            this.datum});
             resources.ApplyResources(this.dgvList, "dgvList");
             this.dgvList.Name = "dgvList";
+            // 
+            // dtpZeit
+            // 
+            resources.ApplyResources(this.dtpZeit, "dtpZeit");
+            this.dtpZeit.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpZeit.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
+            this.dtpZeit.Name = "dtpZeit";
+            this.dtpZeit.Value = new System.DateTime(2020, 12, 1, 15, 11, 0, 0);
+            this.dtpZeit.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // dtpDatum
+            // 
+            resources.ApplyResources(this.dtpDatum, "dtpDatum");
+            this.dtpDatum.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDatum.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
+            this.dtpDatum.Name = "dtpDatum";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnAufKarteAnzeigen);
+            this.groupBox2.Controls.Add(this.cbVerbindungen);
+            this.groupBox2.Controls.Add(this.btnTeilen);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // cbVerbindungen
+            // 
+            this.cbVerbindungen.FormattingEnabled = true;
+            resources.ApplyResources(this.cbVerbindungen, "cbVerbindungen");
+            this.cbVerbindungen.Name = "cbVerbindungen";
+            // 
+            // lblAb
+            // 
+            resources.ApplyResources(this.lblAb, "lblAb");
+            this.lblAb.Name = "lblAb";
+            this.lblAb.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // linie
             // 
@@ -237,34 +271,10 @@ namespace SSV_Application
             resources.ApplyResources(this.ankunftszeit, "ankunftszeit");
             this.ankunftszeit.Name = "ankunftszeit";
             // 
-            // dateTimePicker1
+            // datum
             // 
-            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker1.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // dateTimePicker2
-            // 
-            resources.ApplyResources(this.dateTimePicker2, "dateTimePicker2");
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.cbVerbindungen);
-            this.groupBox2.Controls.Add(this.btnTeilen);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
-            // 
-            // cbVerbindungen
-            // 
-            this.cbVerbindungen.FormattingEnabled = true;
-            resources.ApplyResources(this.cbVerbindungen, "cbVerbindungen");
-            this.cbVerbindungen.Name = "cbVerbindungen";
+            resources.ApplyResources(this.datum, "datum");
+            this.datum.Name = "datum";
             // 
             // main
             // 
@@ -274,7 +284,6 @@ namespace SSV_Application
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.dgvList);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gbSucheEinschraenken);
             this.Controls.Add(this.gbNeueVerbindung);
             this.Controls.Add(this.label1);
@@ -286,7 +295,7 @@ namespace SSV_Application
             this.gbNeueVerbindung.ResumeLayout(false);
             this.gbNeueVerbindung.PerformLayout();
             this.gbSucheEinschraenken.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
+            this.gbSucheEinschraenken.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -302,7 +311,6 @@ namespace SSV_Application
         private System.Windows.Forms.GroupBox gbSucheEinschraenken;
         private System.Windows.Forms.Button btnAufKarteAnzeigen;
         private System.Windows.Forms.Button btnTeilen;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAb;
         private System.Windows.Forms.Button btnStartUndEnde;
         private System.Windows.Forms.Button btnGo;
@@ -316,16 +324,18 @@ namespace SSV_Application
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dgvList;
+        private System.Windows.Forms.DateTimePicker dtpZeit;
+        private System.Windows.Forms.DateTimePicker dtpDatum;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox cbVerbindungen;
+        private System.Windows.Forms.Label lblAb;
         private System.Windows.Forms.DataGridViewTextBoxColumn linie;
         private System.Windows.Forms.DataGridViewTextBoxColumn von;
         private System.Windows.Forms.DataGridViewTextBoxColumn nach;
         private System.Windows.Forms.DataGridViewTextBoxColumn gleis;
         private System.Windows.Forms.DataGridViewTextBoxColumn abfahrtszeit;
         private System.Windows.Forms.DataGridViewTextBoxColumn ankunftszeit;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox cbVerbindungen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn datum;
     }
 }
 
