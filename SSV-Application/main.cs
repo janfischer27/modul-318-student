@@ -10,7 +10,6 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Mail;
 
 namespace SSV_Application
 {
@@ -22,7 +21,6 @@ namespace SSV_Application
         {
             InitializeComponent();
             ButtonsStartUp();
-
         }
 
 
@@ -40,7 +38,7 @@ namespace SSV_Application
             lblPfeil.Enabled = false;
 
             //Teilen-Funktion deaktivieren, da diese nur im normalen Modus funktionieren soll.
-            cbVerbindungen.Enabled = false; 
+            cbVerbindungen.Enabled = false;
             btnTeilen.Enabled = false;
             cbVerbindungen.Text = "";
 
@@ -48,8 +46,6 @@ namespace SSV_Application
             dtpDatum.Enabled = false;
             dtpZeit.Enabled = false;
             lblAb.Enabled = false;
-
-
         }
 
         private void btnStartUndEnde_Click(object sender, EventArgs e)
@@ -65,7 +61,7 @@ namespace SSV_Application
             lblAktiverModus.Text = "Start und Ende";
 
             //Sicherstellen, dass die Teilen-funktion aktiviert ist.
-            cbVerbindungen.Enabled = true; 
+            cbVerbindungen.Enabled = true;
             btnTeilen.Enabled = true;
 
             //Eingabe von Datum und Uhrzeit ermöglichen
@@ -90,7 +86,7 @@ namespace SSV_Application
                 cbVerbindungen.Items.Clear();
                 cbAbfahrtsort.Items.Clear();
                 cbZielort.Items.Clear();
-                
+
 
                 if (btnAb.Enabled) //Modus "Start und Ende" ist aktiv
                 {
@@ -124,7 +120,7 @@ namespace SSV_Application
                         MessageBox.Show("Bitte Abfahrtsort und Zielort eingeben.");
                     }
                 }
-                else if(btnStartUndEnde.Enabled) //Modus "Ab" ist aktiv (Abfahrtstafel)
+                else if (btnStartUndEnde.Enabled) //Modus "Ab" ist aktiv (Abfahrtstafel)
                 {
                     clearDGV();
 
@@ -184,21 +180,6 @@ namespace SSV_Application
             {
                 MessageBox.Show("Ein Fehler ist aufgetretten! \nHast du alle nötigen Eingaben ausgefüllt?", "Fehler beim Generieren", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
 
         }
 
@@ -216,7 +197,12 @@ namespace SSV_Application
             {
                 Stations stations = transport.GetStations(cbStationAnzeigen.Text);
                 Station station = stations.StationList[0];
+                /*
                 Create_GmapStation(Convert.ToString(station.Coordinate.XCoordinate).Replace(',', '.'), Convert.ToString(station.Coordinate.YCoordinate).Replace(',', '.'));
+                */
+
+                Map map = new Map(station.Coordinate.XCoordinate, station.Coordinate.YCoordinate);
+                map.Show();
             }
             else
             {
@@ -242,7 +228,7 @@ namespace SSV_Application
             {
                 MessageBox.Show("Bitte zuerst Auswahl deiner Verbindung treffen");
             }
-            
+
         }
 
         private void btnStationFinden_Click(object sender, EventArgs e)
@@ -279,9 +265,7 @@ namespace SSV_Application
             }
         }
 
-        //Nun folgende die Auto-Complete
-
-        public List<Station> Vorschlaege(string texteingabe) //Vorschläge laden mit GetStations
+        public List<Station> Vorschlaege(string texteingabe) //Vorschläge laden mit GetStations, welche folgend mit "vorschlaege" aufgerufen werden können
         {
             var stationsobjekte = transport.GetStations(query: texteingabe);
 
@@ -290,59 +274,7 @@ namespace SSV_Application
             return stationenvorschlaege;
         }
 
-        private void cbAbfahrtsort_TextChanged(object sender, EventArgs e)
-        {
-            /*main neuesuche = new main();
-
-            List<Station> sucheresultat = neuesuche.Vorschlaege(cbAbfahrtsort.Text);
-            try
-            {
-                foreach (Station station in sucheresultat)
-                {
-                    if (cbAbfahrtsort.Items.Contains(station.Name))
-                    {
-                        //nichts machen, da der eintrag schon vorhanden ist
-                    }
-                    else
-                    {
-                        cbAbfahrtsort.Items.Add(station.Name);
-                    }
-                }
-            }
-            catch { }
-            cbAbfahrtsort.Focus();
-            cbAbfahrtsort.SelectionStart = cbAbfahrtsort.Text.Length;*/
-
-        }
-
-        private void cbZielort_TextChanged(object sender, EventArgs e)
-        {
-            main neuesuche = new main();
-
-            List<Station> sucheresultat = neuesuche.Vorschlaege(cbZielort.Text);
-            try
-            {
-                foreach (Station station in sucheresultat)
-                {
-                    if (cbZielort.Items.Contains(station.Name))
-                    {
-                        //nichts machen, da der eintrag schon vorhanden ist
-                    }
-                    else
-                    {
-                        cbZielort.Items.Add(station.Name);
-                    }
-                    
-                }
-            }
-            catch { }
-            cbZielort.Focus();
-            cbZielort.SelectionStart = cbZielort.Text.Length;
-        }
-
-
-        //Intelisense der comboboxen
-        private void Vorschlaege_KeyUp(object sender, KeyEventArgs e)
+        private void Vorschlaege_KeyUp(object sender, KeyEventArgs e) //Intelisense für cbZielort
         {
             EingabeVorschlag intelisense = new EingabeVorschlag();
             if (((ComboBox)sender).Text.Length >= 3)

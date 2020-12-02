@@ -127,7 +127,6 @@ namespace SSV_Application
             this.cbZielort.FormattingEnabled = true;
             resources.ApplyResources(this.cbZielort, "cbZielort");
             this.cbZielort.Name = "cbZielort";
-            this.cbZielort.TextChanged += new System.EventHandler(this.cbZielort_TextChanged);
             this.cbZielort.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Vorschlaege_KeyUp);
             // 
             // cbAbfahrtsort
@@ -135,7 +134,6 @@ namespace SSV_Application
             this.cbAbfahrtsort.FormattingEnabled = true;
             resources.ApplyResources(this.cbAbfahrtsort, "cbAbfahrtsort");
             this.cbAbfahrtsort.Name = "cbAbfahrtsort";
-            this.cbAbfahrtsort.TextChanged += new System.EventHandler(this.cbAbfahrtsort_TextChanged);
             this.cbAbfahrtsort.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Vorschlaege_KeyUp);
             // 
             // lblAktiverModus
@@ -218,7 +216,6 @@ namespace SSV_Application
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Click += new System.EventHandler(this.label3_Click);
             // 
             // groupBox2
             // 
@@ -274,6 +271,7 @@ namespace SSV_Application
             this.AcceptButton = this.btnGo;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.dgvAuflisten);
             this.Controls.Add(this.groupBox2);
