@@ -16,3 +16,6 @@ C:\Users\jafi\source\repos\modul-318-student\SSV-Application\obj\Release\de-CH\S
 C:\Users\jafi\source\repos\modul-318-student\SSV-Application\obj\Release\SSV-Application.csproj.CopyComplete
 C:\Users\jafi\source\repos\modul-318-student\SSV-Application\obj\Release\SSV-Application.exe
 C:\Users\jafi\source\repos\modul-318-student\SSV-Application\obj\Release\SSV-Application.pdb
+C:\Users\jafi\source\repos\modul-318-student\SSV-Application\bin\Release\GMap.NET.Core.dll
+C:\Users\jafi\source\repos\modul-318-student\SSV-Application\bin\Release\GMap.NET.WindowsForms.dll
+C:\Users\jafi\source\repos\modul-318-student\SSV-Application\obj\Release\SSV_Application.Map.resources
