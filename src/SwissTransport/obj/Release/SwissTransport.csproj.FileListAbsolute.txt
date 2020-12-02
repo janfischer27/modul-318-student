@@ -1,0 +1,9 @@
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\bin\Release\SwissTransport.dll
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\bin\Release\SwissTransport.pdb
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\bin\Release\Newtonsoft.Json.dll
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\bin\Release\Newtonsoft.Json.xml
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\obj\Release\SwissTransport.csprojAssemblyReference.cache
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\obj\Release\SwissTransport.csproj.CoreCompileInputs.cache
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\obj\Release\SwissTransport.csproj.CopyComplete
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\obj\Release\SwissTransport.dll
+C:\Users\jafi\source\repos\modul-318-student\src\SwissTransport\obj\Release\SwissTransport.pdb
