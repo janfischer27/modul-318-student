@@ -33,39 +33,39 @@ namespace SSV_Application
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.gbNeueVerbindung = new System.Windows.Forms.GroupBox();
+            this.lblPfeil = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnStartUndEnde = new System.Windows.Forms.Button();
+            this.btnAb = new System.Windows.Forms.Button();
+            this.cbZielort = new System.Windows.Forms.ComboBox();
+            this.cbAbfahrtsort = new System.Windows.Forms.ComboBox();
             this.lblAktiverModus = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnGo = new System.Windows.Forms.Button();
-            this.btnStationFinden = new System.Windows.Forms.Button();
-            this.txbZielort = new System.Windows.Forms.TextBox();
-            this.txbAbfahrtsort = new System.Windows.Forms.TextBox();
             this.lblZielort = new System.Windows.Forms.Label();
+            this.gbSucheEinschraenken = new System.Windows.Forms.GroupBox();
+            this.dtpZeit = new System.Windows.Forms.DateTimePicker();
+            this.lblAb = new System.Windows.Forms.Label();
+            this.dtpDatum = new System.Windows.Forms.DateTimePicker();
             this.lblAbfahrtsort = new System.Windows.Forms.Label();
             this.lblMode = new System.Windows.Forms.Label();
-            this.btnAb = new System.Windows.Forms.Button();
-            this.btnStartUndEnde = new System.Windows.Forms.Button();
-            this.gbSucheEinschraenken = new System.Windows.Forms.GroupBox();
-            this.btnAufKarteAnzeigen = new System.Windows.Forms.Button();
+            this.btnStationFinden = new System.Windows.Forms.Button();
+            this.btnAnzeigen = new System.Windows.Forms.Button();
             this.btnTeilen = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
-            this.dgvList = new System.Windows.Forms.DataGridView();
-            this.dtpZeit = new System.Windows.Forms.DateTimePicker();
-            this.dtpDatum = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.cbVerbindungen = new System.Windows.Forms.ComboBox();
-            this.lblAb = new System.Windows.Forms.Label();
-            this.linie = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.von = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nach = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gleis = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.abfahrtszeit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ankunftszeit = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.datum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvAuflisten = new System.Windows.Forms.DataGridView();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbStationAnzeigen = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gbNeueVerbindung.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.gbSucheEinschraenken.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAuflisten)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -81,31 +81,67 @@ namespace SSV_Application
             // 
             // gbNeueVerbindung
             // 
+            this.gbNeueVerbindung.Controls.Add(this.lblPfeil);
+            this.gbNeueVerbindung.Controls.Add(this.groupBox1);
+            this.gbNeueVerbindung.Controls.Add(this.cbZielort);
+            this.gbNeueVerbindung.Controls.Add(this.cbAbfahrtsort);
             this.gbNeueVerbindung.Controls.Add(this.lblAktiverModus);
-            this.gbNeueVerbindung.Controls.Add(this.label2);
             this.gbNeueVerbindung.Controls.Add(this.btnGo);
-            this.gbNeueVerbindung.Controls.Add(this.btnStationFinden);
-            this.gbNeueVerbindung.Controls.Add(this.txbZielort);
-            this.gbNeueVerbindung.Controls.Add(this.txbAbfahrtsort);
             this.gbNeueVerbindung.Controls.Add(this.lblZielort);
+            this.gbNeueVerbindung.Controls.Add(this.gbSucheEinschraenken);
             this.gbNeueVerbindung.Controls.Add(this.lblAbfahrtsort);
             this.gbNeueVerbindung.Controls.Add(this.lblMode);
-            this.gbNeueVerbindung.Controls.Add(this.btnAb);
-            this.gbNeueVerbindung.Controls.Add(this.btnStartUndEnde);
             resources.ApplyResources(this.gbNeueVerbindung, "gbNeueVerbindung");
             this.gbNeueVerbindung.Name = "gbNeueVerbindung";
             this.gbNeueVerbindung.TabStop = false;
+            // 
+            // lblPfeil
+            // 
+            resources.ApplyResources(this.lblPfeil, "lblPfeil");
+            this.lblPfeil.Name = "lblPfeil";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btnStartUndEnde);
+            this.groupBox1.Controls.Add(this.btnAb);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // btnStartUndEnde
+            // 
+            resources.ApplyResources(this.btnStartUndEnde, "btnStartUndEnde");
+            this.btnStartUndEnde.Name = "btnStartUndEnde";
+            this.btnStartUndEnde.UseVisualStyleBackColor = true;
+            this.btnStartUndEnde.Click += new System.EventHandler(this.btnStartUndEnde_Click);
+            // 
+            // btnAb
+            // 
+            resources.ApplyResources(this.btnAb, "btnAb");
+            this.btnAb.Name = "btnAb";
+            this.btnAb.UseVisualStyleBackColor = true;
+            this.btnAb.Click += new System.EventHandler(this.btnAb_Click);
+            // 
+            // cbZielort
+            // 
+            this.cbZielort.FormattingEnabled = true;
+            resources.ApplyResources(this.cbZielort, "cbZielort");
+            this.cbZielort.Name = "cbZielort";
+            this.cbZielort.TextChanged += new System.EventHandler(this.cbZielort_TextChanged);
+            this.cbZielort.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Vorschlaege_KeyUp);
+            // 
+            // cbAbfahrtsort
+            // 
+            this.cbAbfahrtsort.FormattingEnabled = true;
+            resources.ApplyResources(this.cbAbfahrtsort, "cbAbfahrtsort");
+            this.cbAbfahrtsort.Name = "cbAbfahrtsort";
+            this.cbAbfahrtsort.TextChanged += new System.EventHandler(this.cbAbfahrtsort_TextChanged);
+            this.cbAbfahrtsort.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Vorschlaege_KeyUp);
             // 
             // lblAktiverModus
             // 
             resources.ApplyResources(this.lblAktiverModus, "lblAktiverModus");
             this.lblAktiverModus.Name = "lblAktiverModus";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnGo
             // 
@@ -114,27 +150,38 @@ namespace SSV_Application
             this.btnGo.UseVisualStyleBackColor = true;
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
-            // btnStationFinden
-            // 
-            resources.ApplyResources(this.btnStationFinden, "btnStationFinden");
-            this.btnStationFinden.Name = "btnStationFinden";
-            this.btnStationFinden.UseVisualStyleBackColor = true;
-            this.btnStationFinden.Click += new System.EventHandler(this.btnStationFinden_Click);
-            // 
-            // txbZielort
-            // 
-            resources.ApplyResources(this.txbZielort, "txbZielort");
-            this.txbZielort.Name = "txbZielort";
-            // 
-            // txbAbfahrtsort
-            // 
-            resources.ApplyResources(this.txbAbfahrtsort, "txbAbfahrtsort");
-            this.txbAbfahrtsort.Name = "txbAbfahrtsort";
-            // 
             // lblZielort
             // 
             resources.ApplyResources(this.lblZielort, "lblZielort");
             this.lblZielort.Name = "lblZielort";
+            // 
+            // gbSucheEinschraenken
+            // 
+            this.gbSucheEinschraenken.Controls.Add(this.dtpZeit);
+            this.gbSucheEinschraenken.Controls.Add(this.lblAb);
+            this.gbSucheEinschraenken.Controls.Add(this.dtpDatum);
+            resources.ApplyResources(this.gbSucheEinschraenken, "gbSucheEinschraenken");
+            this.gbSucheEinschraenken.Name = "gbSucheEinschraenken";
+            this.gbSucheEinschraenken.TabStop = false;
+            // 
+            // dtpZeit
+            // 
+            resources.ApplyResources(this.dtpZeit, "dtpZeit");
+            this.dtpZeit.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpZeit.Name = "dtpZeit";
+            this.dtpZeit.ShowUpDown = true;
+            // 
+            // lblAb
+            // 
+            resources.ApplyResources(this.lblAb, "lblAb");
+            this.lblAb.Name = "lblAb";
+            // 
+            // dtpDatum
+            // 
+            resources.ApplyResources(this.dtpDatum, "dtpDatum");
+            this.dtpDatum.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpDatum.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
+            this.dtpDatum.Name = "dtpDatum";
             // 
             // lblAbfahrtsort
             // 
@@ -146,35 +193,19 @@ namespace SSV_Application
             resources.ApplyResources(this.lblMode, "lblMode");
             this.lblMode.Name = "lblMode";
             // 
-            // btnAb
+            // btnStationFinden
             // 
-            resources.ApplyResources(this.btnAb, "btnAb");
-            this.btnAb.Name = "btnAb";
-            this.btnAb.UseVisualStyleBackColor = true;
-            this.btnAb.Click += new System.EventHandler(this.btnAb_Click);
+            resources.ApplyResources(this.btnStationFinden, "btnStationFinden");
+            this.btnStationFinden.Name = "btnStationFinden";
+            this.btnStationFinden.UseVisualStyleBackColor = true;
+            this.btnStationFinden.Click += new System.EventHandler(this.btnStationFinden_Click);
             // 
-            // btnStartUndEnde
+            // btnAnzeigen
             // 
-            resources.ApplyResources(this.btnStartUndEnde, "btnStartUndEnde");
-            this.btnStartUndEnde.Name = "btnStartUndEnde";
-            this.btnStartUndEnde.UseVisualStyleBackColor = true;
-            this.btnStartUndEnde.Click += new System.EventHandler(this.btnStartUndEnde_Click);
-            // 
-            // gbSucheEinschraenken
-            // 
-            this.gbSucheEinschraenken.Controls.Add(this.lblAb);
-            this.gbSucheEinschraenken.Controls.Add(this.dtpDatum);
-            this.gbSucheEinschraenken.Controls.Add(this.dtpZeit);
-            resources.ApplyResources(this.gbSucheEinschraenken, "gbSucheEinschraenken");
-            this.gbSucheEinschraenken.Name = "gbSucheEinschraenken";
-            this.gbSucheEinschraenken.TabStop = false;
-            // 
-            // btnAufKarteAnzeigen
-            // 
-            resources.ApplyResources(this.btnAufKarteAnzeigen, "btnAufKarteAnzeigen");
-            this.btnAufKarteAnzeigen.Name = "btnAufKarteAnzeigen";
-            this.btnAufKarteAnzeigen.UseVisualStyleBackColor = true;
-            this.btnAufKarteAnzeigen.Click += new System.EventHandler(this.btnAufKarteAnzeigen_Click);
+            resources.ApplyResources(this.btnAnzeigen, "btnAnzeigen");
+            this.btnAnzeigen.Name = "btnAnzeigen";
+            this.btnAnzeigen.UseVisualStyleBackColor = true;
+            this.btnAnzeigen.Click += new System.EventHandler(this.btnAufKarteAnzeigen_Click);
             // 
             // btnTeilen
             // 
@@ -189,40 +220,8 @@ namespace SSV_Application
             this.label5.Name = "label5";
             this.label5.Click += new System.EventHandler(this.label3_Click);
             // 
-            // dgvList
-            // 
-            this.dgvList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvList.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.linie,
-            this.von,
-            this.nach,
-            this.gleis,
-            this.abfahrtszeit,
-            this.ankunftszeit,
-            this.datum});
-            resources.ApplyResources(this.dgvList, "dgvList");
-            this.dgvList.Name = "dgvList";
-            // 
-            // dtpZeit
-            // 
-            resources.ApplyResources(this.dtpZeit, "dtpZeit");
-            this.dtpZeit.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpZeit.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
-            this.dtpZeit.Name = "dtpZeit";
-            this.dtpZeit.Value = new System.DateTime(2020, 12, 1, 15, 11, 0, 0);
-            this.dtpZeit.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // dtpDatum
-            // 
-            resources.ApplyResources(this.dtpDatum, "dtpDatum");
-            this.dtpDatum.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpDatum.MinDate = new System.DateTime(2020, 12, 1, 0, 0, 0, 0);
-            this.dtpDatum.Name = "dtpDatum";
-            // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnAufKarteAnzeigen);
             this.groupBox2.Controls.Add(this.cbVerbindungen);
             this.groupBox2.Controls.Add(this.btnTeilen);
             resources.ApplyResources(this.groupBox2, "groupBox2");
@@ -235,56 +234,50 @@ namespace SSV_Application
             resources.ApplyResources(this.cbVerbindungen, "cbVerbindungen");
             this.cbVerbindungen.Name = "cbVerbindungen";
             // 
-            // lblAb
+            // dgvAuflisten
             // 
-            resources.ApplyResources(this.lblAb, "lblAb");
-            this.lblAb.Name = "lblAb";
-            this.lblAb.Click += new System.EventHandler(this.label3_Click_1);
+            this.dgvAuflisten.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvAuflisten.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvAuflisten, "dgvAuflisten");
+            this.dgvAuflisten.Name = "dgvAuflisten";
             // 
-            // linie
+            // groupBox3
             // 
-            resources.ApplyResources(this.linie, "linie");
-            this.linie.Name = "linie";
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.cbStationAnzeigen);
+            this.groupBox3.Controls.Add(this.btnAnzeigen);
+            this.groupBox3.Controls.Add(this.btnStationFinden);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
             // 
-            // von
+            // label3
             // 
-            resources.ApplyResources(this.von, "von");
-            this.von.Name = "von";
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
             // 
-            // nach
+            // label2
             // 
-            resources.ApplyResources(this.nach, "nach");
-            this.nach.Name = "nach";
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
-            // gleis
+            // cbStationAnzeigen
             // 
-            resources.ApplyResources(this.gleis, "gleis");
-            this.gleis.Name = "gleis";
-            // 
-            // abfahrtszeit
-            // 
-            resources.ApplyResources(this.abfahrtszeit, "abfahrtszeit");
-            this.abfahrtszeit.Name = "abfahrtszeit";
-            // 
-            // ankunftszeit
-            // 
-            resources.ApplyResources(this.ankunftszeit, "ankunftszeit");
-            this.ankunftszeit.Name = "ankunftszeit";
-            // 
-            // datum
-            // 
-            resources.ApplyResources(this.datum, "datum");
-            this.datum.Name = "datum";
+            this.cbStationAnzeigen.FormattingEnabled = true;
+            resources.ApplyResources(this.cbStationAnzeigen, "cbStationAnzeigen");
+            this.cbStationAnzeigen.Name = "cbStationAnzeigen";
+            this.cbStationAnzeigen.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Vorschlaege_KeyUp);
             // 
             // main
             // 
             this.AcceptButton = this.btnGo;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.dgvAuflisten);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.dgvList);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.gbSucheEinschraenken);
             this.Controls.Add(this.gbNeueVerbindung);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -294,10 +287,13 @@ namespace SSV_Application
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gbNeueVerbindung.ResumeLayout(false);
             this.gbNeueVerbindung.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.gbSucheEinschraenken.ResumeLayout(false);
             this.gbSucheEinschraenken.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvAuflisten)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -309,33 +305,31 @@ namespace SSV_Application
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gbNeueVerbindung;
         private System.Windows.Forms.GroupBox gbSucheEinschraenken;
-        private System.Windows.Forms.Button btnAufKarteAnzeigen;
+        private System.Windows.Forms.Button btnAnzeigen;
         private System.Windows.Forms.Button btnTeilen;
         private System.Windows.Forms.Button btnAb;
         private System.Windows.Forms.Button btnStartUndEnde;
         private System.Windows.Forms.Button btnGo;
         private System.Windows.Forms.Button btnStationFinden;
-        private System.Windows.Forms.TextBox txbZielort;
-        private System.Windows.Forms.TextBox txbAbfahrtsort;
         private System.Windows.Forms.Label lblZielort;
         private System.Windows.Forms.Label lblAbfahrtsort;
         private System.Windows.Forms.Label lblMode;
         private System.Windows.Forms.Label lblAktiverModus;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dgvList;
-        private System.Windows.Forms.DateTimePicker dtpZeit;
         private System.Windows.Forms.DateTimePicker dtpDatum;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox cbVerbindungen;
         private System.Windows.Forms.Label lblAb;
-        private System.Windows.Forms.DataGridViewTextBoxColumn linie;
-        private System.Windows.Forms.DataGridViewTextBoxColumn von;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nach;
-        private System.Windows.Forms.DataGridViewTextBoxColumn gleis;
-        private System.Windows.Forms.DataGridViewTextBoxColumn abfahrtszeit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ankunftszeit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn datum;
+        private System.Windows.Forms.DateTimePicker dtpZeit;
+        private System.Windows.Forms.DataGridView dgvAuflisten;
+        private System.Windows.Forms.ComboBox cbZielort;
+        private System.Windows.Forms.ComboBox cbAbfahrtsort;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cbStationAnzeigen;
+        private System.Windows.Forms.Label lblPfeil;
     }
 }
 
